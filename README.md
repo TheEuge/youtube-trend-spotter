@@ -58,7 +58,7 @@ youtube-trend-spotter/
 
 ```
 {
-  "name": "youtube-trend-spotter-backend",
+  "name": "youtube-trend-analyzer-backend",
   "version": "1.0.0",
   "scripts": {
     "start": "node index.js"
@@ -66,7 +66,8 @@ youtube-trend-spotter/
   "dependencies": {
     "express": "^4.18.2",
     "node-fetch": "^2.6.7",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5"
   }
 }
 ```
@@ -74,9 +75,15 @@ youtube-trend-spotter/
 
 `npm install`
 
-4. Create index.js (see the code) and replace `'YOUR_API_KEY_HERE'` with your YouTube Data API key.
+4. Create index.js (see the code)
 
-5. Start the backend server:
+5. Create `.env` file in `backend` folder with the code
+
+`API_KEY=your_api_key_here`
+
+Replace `your_api_key_here` with your real YouTube Data API key.
+
+6. Start the backend server:
 
 `npm start`
 
