@@ -1,6 +1,6 @@
 # YouTube Search Trend Spotter
 
-A web application to compare the popularity of two YouTube search terms based on video results, views, and likes. The backend is built with Node.js and Express, handling YouTube Data API requests and JSON file storage. The frontend uses Vue.js 3 with Apache ECharts (via `vue-echarts`) for visualizations, displaying a bar chart, scatter chart, and table of the top 50 latest videos with titles and links.
+This is a web application to compare the popularity of two YouTube search terms based on video results, views, and likes. The backend is built with Node.js and Express, handling YouTube Data API requests and JSON file storage. The frontend uses Vue.js 3 with Apache ECharts (via `vue-echarts`) for visualizations, displaying a bar chart, scatter chart, and table of the top 50 latest videos with titles and links.
 
 ## Features
 - **Compare Search Terms**: Analyze two search terms using YouTube Data API metrics (total videos, views, likes).
