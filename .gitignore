@@ -1,0 +1,31 @@
+# Node.js
+node_modules/
+package-lock.json
+npm-debug.log
+yarn-error.log
+
+# Vue.js
+node_modules
+dist/
+.cache/
+*.log
+
+# Sensitive data
+.env
+backend/.env
+
+# Editor and OS files
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Build and test artifacts
+coverage/
+*.test.js
+*.spec.js
+
+# Temporary files
+*.tmp
+*.bak

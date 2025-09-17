@@ -6,7 +6,7 @@ const cors = require('cors');
 
 const app = express();
 const port = 3000;
-const API_KEY = 'AIzaSyD9i0ZR2lxqQMW7TRvQUp-HI2d_ajZUfdk'; // Replace with your YouTube Data API key
+const API_KEY = 'YOUR_API_KEY_HERE'; // Replace with your YouTube Data API key
 const SEARCH_URL = 'https://www.googleapis.com/youtube/v3/search';
 const VIDEOS_URL = 'https://www.googleapis.com/youtube/v3/videos';
 const MAX_RESULTS = 50;

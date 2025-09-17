@@ -29,6 +29,12 @@ A web application to compare the popularity of two YouTube search terms based on
 
 ## Installation
 
+You can clone the repo
+
+`git@github.com:TheEuge/youtube-trend-spotter.git`
+
+and proceed with installation instructions below.
+
 ### Directory Structure
 ```
 youtube-trend-spotter/
