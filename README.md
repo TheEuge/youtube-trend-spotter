@@ -154,7 +154,7 @@ The app typically runs on http://localhost:8080.
 
 5. **Save/Load JSON**:
 
-- Click "Download JSON" to save data to the server and download it.
+- Click "Download JSON" to save data from the server and download it.
 - Select a JSON file from the dropdown to load offline data.
 
 ## Notes
@@ -184,7 +184,7 @@ The app typically runs on http://localhost:8080.
 - Check that the backend/data directory is writable.
 - Verify JSON files in the dropdown have the correct structure.
 
-_**Note**_: some of the "working" json test datasets are available in `data` folder. Using offline datasets requires running backend server (even with empty API key).
+_**Note**_: some of the "working" json test datasets are available in `data` folder. Using offline datasets requires running backend server (even with "empty" API key).
 
 ## Contributing
 Contributions are welcome! Please submit a pull request or open an issue for bugs, features, or improvements.
