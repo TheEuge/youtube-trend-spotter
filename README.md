@@ -19,7 +19,7 @@ This is a web application to compare the popularity of two YouTube search terms 
   - Reactive UI with input form, chart components (ECharts bar and scatter), and table.
   - Communicates with backend via Axios.
 - **Dependencies**:
-  - Backend: `express`, `node-fetch`, `cors`
+  - Backend: `express`, `node-fetch`, `cors`, `dotenv`
   - Frontend: `vue`, `vue-echarts`, `echarts`, `axios`
 
 ## Prerequisites
