@@ -46,7 +46,6 @@ youtube-trend-spotter/
 │   ├── src/
 │   │   ├── App.vue
 │   │   ├── main.js
-│   ├── public/
 │   ├── package.json
 ```
 ## Backend Setup
